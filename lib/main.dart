@@ -61,7 +61,7 @@ class HomePageState extends State<HomePage> {
     return new Scaffold(
       appBar: new AppBar(
         centerTitle: true,
-        title: Text("Yasin Eryiğit"),
+        title: Text("Calculator"),
       ),
       body: Container(
         padding: EdgeInsets.all(50.0),
@@ -107,7 +107,7 @@ class HomePageState extends State<HomePage> {
                       });
                     },
                     child:Text("+"),
-                    color: Colors.deepOrange,
+                    color: Colors.lightBlue,
                   ),
                   Padding(
                     padding: EdgeInsets.all(25.0),
@@ -174,7 +174,7 @@ class HomePageState extends State<HomePage> {
                       });
                     },
                     child: Text("Clear"),
-                    color: Colors.white,
+                    color: Colors.purpleAccent,
                     minWidth: 230.0,
 
                   ),
