@@ -174,7 +174,7 @@ class HomePageState extends State<HomePage> {
                       });
                     },
                     child: Text("Clear"),
-                    color: Colors.purpleAccent,
+                    color: Colors.deepOrange,
                     minWidth: 230.0,
 
                   ),
